@@ -9,15 +9,14 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
+    background:linear-gradient(#CF2425,#922628 50%,#922628 60%,#DA3B3F);
 }
 
 header, footer {
     height: 100px;
-    background-color: #CF2425;
     color: #FFFFFF;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     padding: 0 20px;
 }
 
@@ -26,7 +25,6 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #DA6062;
 }
 
 header {
@@ -42,6 +40,13 @@ header span {
     font-weight: 600;
 }
 
+main {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .background-logo {
     position: absolute;
     width: 100%;
@@ -51,7 +56,7 @@ header span {
     left: 0;
     right: 0;
     bottom: 0;
-    z-index: -1;
+    
 }
 
 .content-text {
@@ -61,10 +66,12 @@ header span {
     width: 240px;
     transform: translateX(-100%);
     text-align: end;
+    margin-right: 10rem;
 }
 
 .content-image {
     height: 85vh;
+    z-index: 1;
 }
 
 footer {
