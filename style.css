@@ -42,13 +42,6 @@ header span {
     font-weight: 600;
 }
 
-main {
-    flex-grow: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .background-logo {
     position: absolute;
     width: 100%;
