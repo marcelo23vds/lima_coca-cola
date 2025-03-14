@@ -1,5 +1,6 @@
 # COCA-COLA
 ![](./img/coca-cola-preview.png)
+# PEPSI
 ![](./img/pepsi-preview.png)
 
 Primeiro website criado, do tipo landing page, para treino no desenvolvimento de sites.
