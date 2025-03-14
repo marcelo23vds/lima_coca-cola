@@ -25,8 +25,8 @@ main div {
     "a b c"
 }
 
-.content-text:nth-child(1) { grid-area: a; }
-.content-image:nth-child(2) { grid-area: b; }
+.content-text { grid-area: a; }
+.content-image { grid-area: b; }
 
 header {
     height: 100px;
@@ -52,6 +52,7 @@ header span, a {
     left: 0;
     right: 0;
     bottom: 0;
+    z-index: -1;
 }
 
 .content-text {
